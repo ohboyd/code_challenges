@@ -1,5 +1,5 @@
 # Modulo
-#
+
 # Compute a % b without using % operator.
 
 def modulo_op(a, b)
