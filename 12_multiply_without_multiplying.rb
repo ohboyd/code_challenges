@@ -9,7 +9,7 @@ def multiply(x, y)
   accumulator = 0
   x.abs.times { accumulator += y.abs }
 
-  [(x <0), (y < 0)].one? && ![(x <0), (y < 0)].all? ? - accumulator : accumulator
+  [x, y].one?(&:negative?) ? - accumulator : accumulator
 end
 
 # happy path
