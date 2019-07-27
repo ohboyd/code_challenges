@@ -1,4 +1,4 @@
-# code_challenges
+# Code Challenges
 Solving some typical cs questions with Ruby for #codemonth
 
 
