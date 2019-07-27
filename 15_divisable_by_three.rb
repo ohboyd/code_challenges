@@ -27,6 +27,4 @@ puts threesome(0)
 # floats
 puts threesome(3.3)
 puts threesome(3.6)
-puts threesome(3.9)
 puts threesome(7.3)
-puts threesome(99.3)
